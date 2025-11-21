@@ -1,0 +1,49 @@
+.playerBox{
+    border: 2px solid purple;
+    width: 250px;
+    height: 36px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn{
+    border: 2px solid purple;
+    width: 150px;
+    height: 40.5px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+}
+.btn:hover{
+    cursor: pointer;
+    color: rgb(183, 183, 183);
+    background-color: rgb(45, 45, 45);
+}
+body{
+    width: 100vw;
+    height: 94vh;
+    background-color:red;
+}
+.entireBox{
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (width <= 400px){
+   .inputBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   h1{
+    text-align: center;
+   }
+}
