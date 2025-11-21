@@ -19,11 +19,11 @@ submitBtn.addEventListener("click", () =>
     } 
     
     if (userGuess === randomNumber) {
-        result.textContent = "Congratulations!! You WON ₦2,000,000!!";
+        result.textContent = "Congratulations 🎊🎉🎗️🥳!! You WON ₦2,000,000!!";
         result.style.color = "white";
         console.log( `Correct! Player won ₦2,000,000 with guess ${userGuess}`)
     } else {
-        result.textContent = `You lost this round. Try again to have a chance to win!`;
+        result.textContent = `You lost this round 😟😞. Try again to have a chance to win!`;
         console.log( `Wrong guess ${userGuess}. Try again.`)
     }
 });
